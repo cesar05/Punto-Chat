@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TemaFirebase" parent="AppTheme">
+        <item name="colorPrimary">#5ea0dd</item>
+    </style>
+
+    <style name="GreenTheme" parent="FirebaseUI">
+        <item name="colorPrimary">@color/green10</item>
+        <item name="colorPrimaryDark">@color/green08</item>
+        <item name="colorAccent">@color/purple06</item>
+        <item name="colorControlNormal">@color/green02</item>
+        <item name="colorControlActivated">@color/green03</item>
+        <item name="colorControlHighlight">@color/green05</item>
+        <item name="android:windowBackground">@color/green08</item>
+    </style>
+
+
+    <style name="PuntoChatTema" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2b788f</item>
+        <item name="colorPrimaryDark">@color/light_blue_800</item>
+        <item name="colorAccent">@color/colorBotones</item>
+        <item name="colorControlNormal">@color/orange12</item>
+        <item name="colorControlActivated">@color/amber_400</item>
+        <item name="colorControlHighlight">@color/amber_200</item>
+        <item name="android:windowBackground">@color/colorFondo</item>
+        <item name="android:colorBackground">#d4ebf2</item>
+        <item name="android:icon">@drawable/logo</item>
+    </style>
+
+    <style name="PuntoChatTema.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PuntoChatTema.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PuntoChatTema.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

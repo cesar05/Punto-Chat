@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PuntoChat</string>
+    <string name="facebook_app_id">1132079140210459</string>
+    <string name="progress_dialog_loading">Cargando…</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="contactos">Contactos</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="nombre_app">PuntoChat</string>
+</resources>

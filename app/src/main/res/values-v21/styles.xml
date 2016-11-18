@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PuntoChatTema" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2b788f</item>
+        <item name="colorPrimaryDark">@color/light_blue_800</item>
+        <item name="colorAccent">@color/colorBotones</item>
+        <item name="colorControlNormal">@color/orange12</item>
+        <item name="colorControlActivated">@color/amber_400</item>
+        <item name="colorControlHighlight">@color/amber_200</item>
+        <item name="android:windowBackground">@color/colorFondo</item>
+        <item name="android:statusBarColor">#3799b7</item>
+        <item name="android:navigationBarColor">#3799b7</item>
+        <item name="android:colorBackground">#d4ebf2</item>
+    </style>
+
+    <style name="PuntoChatTema.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

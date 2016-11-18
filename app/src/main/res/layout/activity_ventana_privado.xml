@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorFondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jonathan.firebase.pruebasfirebase.ventanaPrivado">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/marcocontacto"
+        android:id="@+id/linearLayout">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/imagenPrivado"
+            android:src="@drawable/iconpersona"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp" />
+        <TextView
+            android:id="@+id/msjContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jonathan Payares"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="textStart"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@+id/imagenPrivado" />
+        <TextView
+            android:id="@+id/emailcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ozzhed@hotmail.com"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="textStart"
+            android:textSize="10sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/msjContacto"
+            android:layout_alignStart="@+id/msjContacto" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/light_blue_50"
+        android:id="@+id/listaMensajesPrivados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        tools:listitem="@layout/message"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:background="@color/colorFondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/mensajePrivado"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_marginRight="20dp"
+            android:layout_width="38dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btnenvia"
+            style="?android:borderlessButtonStyle"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+</RelativeLayout>
